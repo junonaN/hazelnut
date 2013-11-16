@@ -1,0 +1,18 @@
+<%= simple_form_for(@variety) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :name %>
+    <%= f.input :bush_info %>
+    <%= f.input :bush_height %>
+    <%= f.input :crown_shape %>
+    <%= f.input :growth_rate %>
+    <%= f.input :shoots %>
+    <%= f.input :hazelnut_info %>
+    <%= f.input :haze %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

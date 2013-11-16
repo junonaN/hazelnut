@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  bush_info: MyText
+  bush_height: 1.5
+  crown_shape: MyString
+  growth_rate: MyString
+  shoots: MyString
+  hazelnut_info: MyText
+  haze: MyString
+
+two:
+  name: MyString
+  bush_info: MyText
+  bush_height: 1.5
+  crown_shape: MyString
+  growth_rate: MyString
+  shoots: MyString
+  hazelnut_info: MyText
+  haze: MyString

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hazelnuts</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class='container'>
+
+  <div class="navbar">
+    <div class="navbar-inner">
+      <%= link_to "Main page", index_path, class: 'brand' %>
+      <ul class="nav">
+        <li><%= link_to "Varieties", varieties_path %></li>
+      </ul>
+    </div>
+  </div>
+
+  <div  class='row'>
+    <div class='span9'>
+      <% if notice %>
+          <p class="notice"><%= notice %></p>
+      <% end %>
+      <% if alert %>
+          <p class="alert"><%= alert %></p>
+      <% end %>
+      <%= yield %>
+    </div>
+    <div class='span3'>
+      <% if signed_in? %>
+          We remember you!   <br/>
+          <%= current_user.email %>
+          <%= link_to 'Exit', destroy_user_session_path, method: :delete, class: 'btn' %>
+      <% else %>
+          <%= link_to 'Enter', new_user_session_path, class: 'btn' %>
+      <% end %>
+      <div>
+        <%= link_to 'My B.', '#', class: 'btn' %>
+        --------
+        0 items bought
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <footer>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <%= link_to "Main page", root_path, class: 'brand' %>
+        <ul class="nav">
+          <li><%= link_to "Croice", about_path %></li>
+          <li><%= link_to "Cupli", about_team_path %></li>
+          <li><%= link_to "Dokity", about_product_path %></li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+</div>
+</div>
+</body>
+</html>

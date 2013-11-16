@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @variety.name %>
+</p>
+
+<p>
+  <strong>Bush info:</strong>
+  <%= @variety.bush_info %>
+</p>
+
+<p>
+  <strong>Bush height:</strong>
+  <%= @variety.bush_height %>
+</p>
+
+<p>
+  <strong>Crown shape:</strong>
+  <%= @variety.crown_shape %>
+</p>
+
+<p>
+  <strong>Growth rate:</strong>
+  <%= @variety.growth_rate %>
+</p>
+
+<p>
+  <strong>Shoots:</strong>
+  <%= @variety.shoots %>
+</p>
+
+<p>
+  <strong>Hazelnut info:</strong>
+  <%= @variety.hazelnut_info %>
+</p>
+
+<p>
+  <strong>Haze:</strong>
+  <%= @variety.haze %>
+</p>
+
+<%= link_to 'Edit', edit_variety_path(@variety) %> |
+<%= link_to 'Back', varieties_path %>
