@@ -1,5 +1,9 @@
 Dnut::Application.routes.draw do
 
+  resources :articles
+
+  resources :articletypes
+
   resources :stadards
 
   resources :albums

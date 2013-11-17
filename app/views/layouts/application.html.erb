@@ -14,6 +14,10 @@
       <%= link_to "Main page", root_path, class: 'brand' %>
       <ul class="nav">
         <li><%= link_to "Varieties", varieties_path %></li>
+        <li><%= link_to "Articletypes", articletypes_path %></li>
+        <li><%= link_to "Articles", articles_path %></li>
+        <li><%= link_to "Albums", albums_path %></li>
+        <li><%= link_to "Photo", photos_path %></li>
       </ul>
     </div>
   </div>
@@ -28,7 +32,7 @@
       <% end %>
       <%= yield %>
     </div>
-    <div class='span4'>
+    <div class='span4' id='rightcolumn'>
       <% if signed_in? %>
           We remember you!   <br/>
           <%= current_user.email %>
@@ -36,11 +40,6 @@
       <% else %>
           <%= link_to 'Enter', new_user_session_path, class: 'btn' %>
       <% end %>
-      <div>
-        <%= link_to 'My B.', '#', class: 'btn' %>
-        --------
-        0 items bought
-      </div>
     </div>
   </div>
   <br>
