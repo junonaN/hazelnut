@@ -1,35 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d88ab8e-167e-436b-abfb-284640283b00" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/i_ndices.js.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/indices.js.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/i_ndices.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/indices.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/i_ndex.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/controllers/i_ndexes_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/controllers/indices_controller_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/i_ndexes.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/indices.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/helpers/i_ndices_helper_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/helpers/indices_helper_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/models/i_ndex_test.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/varieties_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/varieties_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="9d88ab8e-167e-436b-abfb-284640283b00" name="Default" comment="" />
     <ignored path="dnut.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/development.rb" changelist="9d88ab8e-167e-436b-abfb-284640283b00" time="1384634016928" ignored="false" />
     <file path="/Dummy.txt" changelist="9d88ab8e-167e-436b-abfb-284640283b00" time="1384676373584" ignored="false" />
     <file path="/user.rb" changelist="9d88ab8e-167e-436b-abfb-284640283b00" time="1384678249259" ignored="false" />
     <file path="/application.html.erb" changelist="9d88ab8e-167e-436b-abfb-284640283b00" time="1384678998890" ignored="false" />
-    <file path="$PROJECT_DIR$/log/development.log" changelist="9d88ab8e-167e-436b-abfb-284640283b00" time="1384679106120" ignored="false" />
+    <file path="$PROJECT_DIR$/log/development.log" changelist="9d88ab8e-167e-436b-abfb-284640283b00" time="1384683989207" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Shop/Gemfile" changelist="9d88ab8e-167e-436b-abfb-284640283b00" time="1384684041039" ignored="false" />
+    <file path="/Gemfile" changelist="9d88ab8e-167e-436b-abfb-284640283b00" time="1384684041039" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Shop/config/database.yml" changelist="9d88ab8e-167e-436b-abfb-284640283b00" time="1384684157900" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +34,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="21" selection-start="784" selection-end="784" vertical-scroll-proportion="0.4716981">
+            <state line="30" column="21" selection-start="784" selection-end="784" vertical-scroll-proportion="0.57544756">
               <folding />
             </state>
           </provider>
@@ -113,9 +95,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="182" />
-    <option name="y" value="29" />
-    <option name="width" value="1181" />
+    <option name="x" value="68" />
+    <option name="y" value="24" />
+    <option name="width" value="597" />
     <option name="height" value="659" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -330,14 +312,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="182" y="29" width="1181" height="659" extended-state="0" />
-    <editor active="true" />
+    <frame x="68" y="24" width="597" height="659" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24534987" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50825685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -518,7 +500,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="21" selection-start="784" selection-end="784" vertical-scroll-proportion="0.4716981">
+        <state line="30" column="21" selection-start="784" selection-end="784" vertical-scroll-proportion="0.57544756">
           <folding />
         </state>
       </provider>
