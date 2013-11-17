@@ -1,0 +1,31 @@
+<h1>Listing stadards</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @stadards.each do |stadard| %>
+      <tr>
+        <td><%= stadard.name %></td>
+        <td><%= stadard.type %></td>
+        <td><%= stadard.description %></td>
+        <td><%= link_to 'Show', stadard %></td>
+        <td><%= link_to 'Edit', edit_stadard_path(stadard) %></td>
+        <td><%= link_to 'Destroy', stadard, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Stadard', new_stadard_path %>

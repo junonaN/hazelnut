@@ -1,5 +1,6 @@
 class VarietiesController < ApplicationController
   before_action :set_variety, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, except: [:index, :show]
 
   # GET /varieties
   # GET /varieties.json

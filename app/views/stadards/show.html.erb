@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @stadard.name %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @stadard.type %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @stadard.description %>
+</p>
+
+<%= link_to 'Edit', edit_stadard_path(@stadard) %> |
+<%= link_to 'Back', stadards_path %>
