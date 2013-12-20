@@ -3,6 +3,10 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
+<<<<<<< HEAD
+=======
+gem 'pg'
+>>>>>>> 954f62f4c1bb5b9f7a975cbf136a828adc6c00c0
 
 group :production do
   gem 'pg'

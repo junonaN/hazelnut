@@ -1,18 +1,16 @@
-# SQLite version 3.x
-#   gem install sqlite3
-#
-#   Ensure the SQLite 3 gem is defined in your Gemfile
-#   gem 'sqlite3'
 development:
-  adapter: sqlite3
-  database: db/development.sqlite3
-  pool: 5
+  adapter: postgresql
+  host: localhost
+  database: hazelnut_development
+  username: hazelnut_development
+  pool: 10
   timeout: 5000
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
+<<<<<<< HEAD
   adapter: sqlite3
   database: db/test.sqlite3
   pool: 5
@@ -22,7 +20,11 @@ heroku config:
   set BUNDLE_WITHOUT="development:test"
 
 production:
+=======
+>>>>>>> 954f62f4c1bb5b9f7a975cbf136a828adc6c00c0
   adapter: postgresql
-  database: db/production
-  pool: 5
+  host: localhost
+  database: hazelnut_test
+  username: hazelnut_test
+  pool: 10
   timeout: 5000
