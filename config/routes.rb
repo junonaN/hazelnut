@@ -1,5 +1,6 @@
 Dnut::Application.routes.draw do
 
+  get "flatuipro_demo/index"
   resources :articles
 
   resources :articletypes

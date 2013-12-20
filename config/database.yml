@@ -18,6 +18,9 @@ test:
   pool: 5
   timeout: 5000
 
+heroku config:
+  set BUNDLE_WITHOUT="development:test"
+
 production:
   adapter: postgresql
   database: db/production
