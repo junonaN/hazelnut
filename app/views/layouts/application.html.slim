@@ -1,0 +1,50 @@
+doctype html
+  html
+    head
+      title Slim Examples
+      // meta name="keywords" content="template language"
+      // meta name="author" content=author
+      // javascript:
+        alert('Slim supports embedded javascript!')
+
+      = stylesheet_link_tag    "application", :media => "all", "data-turbolinks-track" => true
+      = javascript_include_tag "application", "data-turbolinks-track" => true
+      = csrf_meta_tags
+
+body
+  #conteiner
+    #navbar
+      #navbar-inner
+        = link_to "Main page", root_path, :class => 'brand'
+        ul.nav
+          li= link_to "Varieties", varieties_path
+          li= link_to "Articletypes", articletypes_path
+          li= link_to "Articles", articles_path
+          li= link_to "Albums", albums_path
+          li= link_to "Photo", photos_path
+        .row
+          .span8
+            - if notice
+              p.notice= notice
+            - if alert
+              p.alert= alert
+            = yield
+
+          #rightcolumn.span4
+            - if signed_in?
+              | We remember you!
+              br
+              = current_user.email
+              = link_to 'Exit', destroy_user_session_path, :method => :delete, :class => 'btn'
+            - else
+              = link_to 'Enter', new_user_session_path, :class => 'btn'
+        br
+        br
+        footer
+          .navbar
+            .navbar-inner
+              = link_to "Main page", root_path, :class => 'brand'
+              ul.nav
+                li= link_to "User", root_path
+                li= link_to "User", root_path
+                li= link_to "User", root_path
