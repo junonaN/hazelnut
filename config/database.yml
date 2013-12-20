@@ -10,7 +10,6 @@ development:
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-<<<<<<< HEAD
   adapter: sqlite3
   database: db/test.sqlite3
   pool: 5
@@ -20,8 +19,6 @@ heroku config:
   set BUNDLE_WITHOUT="development:test"
 
 production:
-=======
->>>>>>> 954f62f4c1bb5b9f7a975cbf136a828adc6c00c0
   adapter: postgresql
   host: localhost
   database: hazelnut_test
