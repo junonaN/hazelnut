@@ -1,27 +1,25 @@
 development:
   adapter: postgresql
   host: localhost
-  database: hazelnut_development
-  username: hazelnut_development
+  database: hazelnut_dev
+  username: junona
   pool: 10
   timeout: 5000
 
-# Warning: The database defined as "test" will be erased and
-# re-generated from your development database when you run "rake".
-# Do not set this db to the same as development or production.
-test:
-  adapter: sqlite3
-  database: db/test.sqlite3
-  pool: 5
-  timeout: 5000
-
 heroku config:
-  set BUNDLE_WITHOUT="development:test"
+#  set BUNDLE_WITHOUT="development:test"
+  adapter: postgresql
+  database: d91a8kk1ujl3iv
+  host: ec2-54-204-35-132.compute-1.amazonaws.com
+  user: ouyxobmmksjmai
+  password: cXHtRgzFCPV6cTz57KUUBZReZY
+  port: 5432
+  sslmode: require
 
 production:
   adapter: postgresql
   host: localhost
-  database: hazelnut_test
-  username: hazelnut_test
+  database: hazelnut_prod
+  username: junona
   pool: 10
   timeout: 5000
