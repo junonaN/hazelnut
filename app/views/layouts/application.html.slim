@@ -3,7 +3,7 @@ html lang="en"
   head
     meta charset="utf-8"
     meta name="viewport" content="width=device-width, initial-scale=1.0"
-    title Hazelnuts
+    title Hazelnuts! - Welcome to nuts world!
 
     = stylesheet_link_tag    "application", :media => "all", "data-turbolinks-track" => true
     = javascript_include_tag "application", "data-turbolinks-track" => true
@@ -15,50 +15,46 @@ html lang="en"
 
 body
 
-
-  script src="js/jquery-1.8.3.min.js"
-  script src="js/jquery-ui-1.10.3.custom.min.js"
-  script src="js/jquery.ui.touch-punch.min.js"
-  script src="js/bootstrap.min.js"
-  script src="js/bootstrap-select.js"
-  script src="js/bootstrap-switch.js"
-  script src="js/flatui-checkbox.js"
-  script src="js/flatui-radio.js"
-  script src="js/jquery.tagsinput.js"
-  script src="js/jquery.placeholder.js"
-  script src="js/jquery.stacktable.js"
+  /
+  /script src="js/jquery-1.8.3.min.js"
+  /script src="js/jquery-ui-1.10.3.custom.min.js"
+  /script src="js/jquery.ui.touch-punch.min.js"
+  /script src="js/bootstrap.min.js"
+  /script src="js/bootstrap-select.js"
+  /script src="js/bootstrap-switch.js"
+  /script src="js/flatui-checkbox.js"
+  /script src="js/flatui-radio.js"
+  /script src="js/jquery.tagsinput.js"
+  /script src="js/jquery.placeholder.js"
+  /script src="js/jquery.stacktable.js"
 
 
   .navbar.navbar-inverse
     .navbar-inner
       .container
         button.btn.btn-navbar data-target="#nav-collapse-03" data-toggle="collapse" type="button"
-        = link_to "Hazelnutz!", root_path, :class => 'brand'
+        = link_to "Hazelnuts!", root_path, :class => 'brand'
         #nav-collapse-03.nav-collapse.collapse
           ul.nav
-            li = link_to "Action", root_path
             li.active
-              = link_to "Action", root_path
+              = link_to "Varieties", varieties_path
+            li
+              = link_to "Photo"
               ul
-                li = link_to "Varieties", varieties_path
-                li
-                  = link_to "Articletypes", articletypes_path
-                  ul
-                    li= link_to "Articles", articles_path
-                    li= link_to "Photo", photos_path
-                    li= link_to "Albums", albums_path
-                    li.divider
-                    li= link_to "Log Out", root_path
-                    li= link_to "Articles", articles_path
+                li= link_to "Photo", photos_path
+                li= link_to "Albums", albums_path
+            li
+              = link_to "Article"
+              ul
+                li= link_to "Articles", articles_path
+                li = link_to "Articletypes", articletypes_path
               /! /Sub menu
-            li = link_to "Action", root_path
 
-          /! /nav
-          form.navbar-search.form-search.pull-left action="" align="center"
-            .input-append
-              input.search-query.span2 placeholder="Search" type="text"
-                button.btn.btn-large type="submit"
-                  i.fui-search
+          /form.navbar-search.form-search.pull-left action="" align="center"
+          /  .input-append
+          /    input.search-query.span2 placeholder="Search" type="text"
+          /      button.btn.btn-large type="submit"
+          /        i.fui-search
 
           - if signed_in?
             ul.nav.pull-right
@@ -77,21 +73,6 @@ body
             ul.nav.pull-right
               li.divider
               li = link_to 'Log In', new_user_session_path
-          /! /nav
-        /! /.nav-collapse
-  /.navbar
-  /  .navbar-inner
-  /    .container
-  /      = link_to "Hazelnuts!", root_path, :class => 'brand'
-  /      ul.nav
-  /        li= link_to "Varieties", varieties_path, :class => 'btn menu-btn'
-  /        li= link_to "Articletypes", articletypes_path, :class => 'btn menu-btn'
-  /        li= link_to "Articles", articles_path, :class => 'btn menu-btn'
-  /        li= link_to "Albums", albums_path, :class => 'btn menu-btn'
-  /        li= link_to "Photo", photos_path, :class => 'btn menu-btn'
-  /
-  /      ul.nav.pull-right
-  /        li= link_to "Photo", photos_path, :class => 'btn menu-btn'
 
   .row
     .span12
@@ -103,13 +84,9 @@ body
 
   br
   br
-  br
-  br
   footer
     .navbar
       .navbar-inner
         = link_to "Hazelnuts!", root_path, :class => 'brand'
         ul.nav
-          li= link_to "User", root_path
-          li= link_to "User", root_path
-          li= link_to "User", root_path
+          li= link_to "Main", root_path

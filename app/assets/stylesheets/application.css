@@ -20,6 +20,10 @@
 .brand {
     line-height: 30px;
 }
+.brand:hover {
+    background-color: #2C3E50 !important;
+}
+
 .signin {
     font-size: 20px !important;
     color: #515151 !important;
