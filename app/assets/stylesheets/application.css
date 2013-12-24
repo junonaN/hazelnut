@@ -17,3 +17,13 @@
     border-left-color: #eeeeee;
 }
 
+.brand {
+    line-height: 30px;
+}
+.signin {
+    font-size: 20px !important;
+    color: #515151 !important;
+}
+.signin:hover {
+    color: #f0f0f0 !important;
+}
