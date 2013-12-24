@@ -90,11 +90,11 @@ body
               li = link_to 'Log In', new_user_session_path
 
   .row
-    .span12
-      - if notice
-        p.notice= notice
-      - if alert
-        p.alert= alert
+    - if notice
+      p.notice= notice
+    - if alert
+      p.alert= alert
+    .content
       = yield
 
   br

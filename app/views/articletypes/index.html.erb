@@ -1,6 +1,12 @@
+<ul class="breadcrumb">
+  <li><a href="#fakelink">Home</a></li>
+  <li class="active"><a href="#fakelink">Albums</a></li>
+  <li class="pull-right"><%= link_to 'New Articletype', new_articletype_path %></li>
+</ul>
+
 <h1>Listing articletypes</h1>
 
-<table>
+<table  class="table table-striped">
   <thead>
     <tr>
       <th>Name</th>
@@ -16,12 +22,12 @@
         <td><%= articletype.name %></td>
         <td><%= link_to 'Show', articletype %></td>
         <td><%= link_to 'Edit', edit_articletype_path(articletype) %></td>
-        <td><%= link_to 'Destroy', articletype, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Destroy', articletype, :method => :delete, :data => { :confirm => 'Are you sure?' } %></td>
+        <td><i class="fui-check-inverted text-primary"></i></td>
       </tr>
     <% end %>
   </tbody>
 </table>
 
-<br>
 
 <%= link_to 'New Articletype', new_articletype_path %>
