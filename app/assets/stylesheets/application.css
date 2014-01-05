@@ -12,13 +12,17 @@
  *= require_tree .
  */
 
-a {
-    text-decoration: none !important;
-    background: none !important;
-}
-a:hover {
-    text-decoration: none !important;
-    background: none !important;
+/*a {*/
+    /*text-decoration: none !important;*/
+    /*background: none !important;*/
+/*}*/
+/*a:hover {*/
+    /*text-decoration: none !important;*/
+    /*background: none !important;*/
+/*}*/
+
+.page-title {
+    margin: 30px 20px 20px 50px;
 }
 
 #rightcolumn {

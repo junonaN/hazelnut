@@ -1,0 +1,16 @@
+#rightcolumn {
+  background-color: #f0f0f0;
+  border-left-color: #eeeeee;
+}
+
+#menu-btn {
+  background-color: #ECEEF0 !important;
+  color: #2c3e50 !important;
+}
+#menu-btn:hover {
+  background-color: #ECEEF0 !important;
+  color: #2c3e50;
+}
+.brand {
+  line-height: 30px;
+}
